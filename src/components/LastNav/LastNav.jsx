@@ -1,14 +1,12 @@
-import React, { useContext } from 'react'
-import { Context1 } from '../../Context1/Context1'
+import React from 'react'
+
 
 
 const LastNav = () => {
- 
-const [a , setA] = useContext(Context1)
-  return (
+   return (
     <div>
       
-       <h2>  LastNav  :  {a} </h2>
+       <h2>  LastNav  :   </h2>
     </div>
   )
 }
